@@ -50,7 +50,7 @@ body{
 }
 
 .container{
-    margin: 0 120px;
+    margin: 0 60px;
 }
 
 /* Section Nav */
@@ -79,3 +79,63 @@ nav a {
 nav img{
     width: 221px;
 }
+
+/* Section Hero */
+
+#hero{
+    background: rgba(117, 153, 147, 0.35);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin: 33px 23px;
+}
+
+#hero .container{
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    padding: 72px 0;
+}
+
+#hero .container .desc{
+    text-align: right;
+}
+
+#hero .container h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 68px;
+
+    color: #262424;
+}
+
+#hero .container p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: rgba(0, 0, 0, 0.45);
+}
+
+#hero .container .btn-hero{
+    display: flex;
+    justify-content: center;
+}
+
+#hero .container button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #262424;
+    background: #9FC1BB;
+    border-radius: 55px;
+    border: 0;
+
+    padding: 15px 42px;
+    margin-top: 30px;
+    text-align: center;
+}
+
