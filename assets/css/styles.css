@@ -139,3 +139,56 @@ nav img{
     text-align: center;
 }
 
+/* Section Fitur */
+
+#fitur{
+    margin-bottom: 50px;
+}
+
+#fitur h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+
+    color: #262424;
+
+    margin: 47px 0;
+}
+
+#fitur .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+#fitur .container .card{
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.55);
+    border-radius: 35px;
+
+    padding: 50px 46px;
+    text-align: center;
+    width: calc((100% / 3) - 130px);
+}
+
+#fitur .container .card h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+
+    color: #262424;
+    margin-top: 20px;
+}
+
+#fitur .container .card p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: rgba(0, 0, 0, 0.45);
+    margin-top: 20px;
+}
